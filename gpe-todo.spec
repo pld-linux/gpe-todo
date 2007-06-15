@@ -7,7 +7,7 @@ License:	GPL
 Group:		Applications/Communications
 Source0:	http://gpe.linuxtogo.org/download/source/%{name}-%{version}.tar.bz2
 # Source0-md5:	d60eda0b82431bc4dd92cf7c40c0efe9
-URL:		http://gpe.linuxtogo.org
+URL:		http://gpe.linuxtogo.org/projects/GPE-todo.shtml
 BuildRequires:	gtk+2-devel >= 2:2.10.7
 BuildRequires:	libgpewidget-devel
 BuildRequires:	libtododb-devel
