@@ -1,5 +1,5 @@
-#
 Summary:	GPE todo list
+Summary(pl.UTF-8):	Lista rzeczy do zrobienia GPE
 Name:		gpe-todo
 Version:	0.56
 Release:	1
@@ -11,14 +11,14 @@ URL:		http://gpe.linuxtogo.org/projects/GPE-todo.shtml
 BuildRequires:	gtk+2-devel >= 2:2.10.7
 BuildRequires:	libgpewidget-devel
 BuildRequires:	libtododb-devel
-BuildRequires:	sed >= 4.0
 Requires:	gpe-icons
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define gpename %(echo %{name} | sed -e 's/gpe-//')
-
 %description
-GPE todo list, for embedded devices
+GPE todo list, for embedded devices.
+
+%description -l pl.UTF-8
+Lista rzeczy do zrobienia (todo) GPE dla urządzeń wbudowanych.
 
 %prep
 %setup -q
